@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Playstation 5",
+        "price": 1000.0
+    },
+    {
+        "id": 2,
+        "name": "TV LED 65",
+        "price": 1400.0
+    },
+    {
+        "id": 3,
+        "name": "Monitor Samsung 24",
+        "price": 300.0
+    },
+    {
+        "id": 4,
+        "name": "Motherboard Asus",
+        "price": 500.0
+    }
+]

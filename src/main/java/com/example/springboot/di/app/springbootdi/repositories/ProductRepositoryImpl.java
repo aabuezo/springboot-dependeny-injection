@@ -3,11 +3,17 @@ package com.example.springboot.di.app.springbootdi.repositories;
 import java.util.Arrays;
 import java.util.List;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;
+// import org.springframework.web.context.annotation.RequestScope;
+// import org.springframework.web.context.annotation.SessionScope;
 
 import com.example.springboot.di.app.springbootdi.models.Product;
 
-@Repository
+@Primary
+// @RequestScope
+// @SessionScope
+@Repository("productList")
 public class ProductRepositoryImpl implements ProductRepository {
 
     // La idea de la clase Repository es interactuar con la BD
