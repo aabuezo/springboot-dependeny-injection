@@ -30,7 +30,7 @@ public class ProductServiceImpl implements ProductService {
     // usar el constructor es mas limpio que usar el @Autowired
     // con @Qualifier le decimos que queremos que inyecte otra impl distinta a la
     // Primary
-    public ProductServiceImpl(@Qualifier("productJson") ProductRepository repository, Environment environment) {
+    public ProductServiceImpl(@Qualifier("productList") ProductRepository repository, Environment environment) {
         this.repository = repository;
         this.environment = environment;
     }
